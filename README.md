@@ -3,7 +3,7 @@
 ### A VM-Based SOC Lab – Designed and Developed by **Fazal**
 
 This project demonstrates the complete setup of an **enterprise-style Security Operations Center (SOC)** using virtual machines to simulate both **network and host monitoring** systems.  
-It integrates **Wazuh**, **Snort**, **ELK**, and **Slack** to form a unified detection and response environment, all documented step-by-step in the guide below.
+It integrates **Wazuh**, **Snort**and **Slack** to form a unified detection and response environment, all documented step-by-step in the guide below.
 
 ---
 
@@ -18,7 +18,7 @@ The environment consists of multiple VMs running various operating systems:
 - Windows Server 2022
 - Amazon Linux EC2 (Cloud Server)
 
-Each endpoint forwards security logs to a **Central SIEM Manager (Ubuntu)** integrated with **Wazuh Manager**, **Snort IDS**, and the **ELK Stack** for visualization and correlation.
+Each endpoint forwards security logs to a **Central SIEM Manager (Ubuntu)** integrated with **Wazuh Manager**, **Snort IDS** for visualization and correlation.
 
 ---
 
@@ -28,7 +28,6 @@ Each endpoint forwards security logs to a **Central SIEM Manager (Ubuntu)** inte
 |------------|----------|
 | **Wazuh Manager** | Collects, analyzes, and correlates logs from all endpoints. |
 | **Snort IDS** | Detects network-based threats using signature-based detection. |
-| **ELK Stack** | Provides powerful visualization and log analytics capabilities. |
 | **Tailscale VPN** | Securely connects cloud and local machines within a private network. |
 | **Slack Integration** | Sends real-time security alerts to a Slack channel. |
 
@@ -39,7 +38,7 @@ Each endpoint forwards security logs to a **Central SIEM Manager (Ubuntu)** inte
 1. **Multi-OS Virtual Environment Setup** – Configured six different VMs simulating enterprise endpoints.  
 2. **Promiscuous Mode Configuration** – Enabled bridge-mode monitoring for complete packet capture.  
 3. **Snort Deployment** – Installed and configured Snort for intrusion detection on the central manager.  
-4. **Wazuh Manager & ELK Setup** – Deployed the SIEM backend with visualization stack.  
+4. **Wazuh Manager** – Deployed the SIEM backend with visualization stack.  
 5. **Agent Installation on All Endpoints** – Forwarded security logs from Windows, Linux, and cloud systems.  
 6. **AWS EC2 Integration** – Linked Amazon Linux instance securely via **Tailscale VPN**.  
 7. **Detection Rules Creation** – Defined custom Wazuh rules for SSH brute-force and authentication failures.  
@@ -52,7 +51,7 @@ Each endpoint forwards security logs to a **Central SIEM Manager (Ubuntu)** inte
 
 The complete setup guide with all commands, configuration files, and screenshots is available in the document below:
 
-📘 **[Download the Full Guide (Enhanced DOCX)](./Enhanced_Project_Guide_Fazal.docx)**
+📘 **[Download the Full Guide (Enhanced DOCX)](.)**
 
 This guide includes:
 - Installation commands for each tool  
@@ -89,7 +88,7 @@ This guide includes:
 
 2. Download and open the guide:  
    ```bash
-   open Enhanced_Project_Guide_Fazal.docx
+   open soc_project_guide.docx
    ```
 
 3. Follow the steps to recreate your own SOC Lab environment.
@@ -102,14 +101,14 @@ This guide includes:
 Engineering in Computer Science – Specialized in Cyber Security  
 SR University  
 
-📫 *Connect on LinkedIn:* [Your LinkedIn URL here]  
-🌐 *Portfolio:* [Your portfolio or GitHub Pages link here]
+📫 *Connect on LinkedIn:* [https://www.linkedin.com/in/fazal-shaikk/]  
+🌐 *Portfolio:* [fazal-portfolio-git-main-fazals-projects-01b6c4d5.vercel.app/]
 
 ---
 
 ## 🏷️ Keywords
 
-`SOC` `Wazuh` `Snort` `SIEM` `ELK` `Network Security` `Incident Response` `Cybersecurity` `SOC Analyst` `Cloud Security` `Automation` `Blue Team`
+`SOC` `Wazuh` `Snort` `SIEM` `Network Security` `Incident Response` `Cybersecurity` `SOC Analyst` `Cloud Security` `Automation` `Blue Team`
 
 ---
 
