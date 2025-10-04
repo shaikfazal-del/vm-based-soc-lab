@@ -51,7 +51,7 @@ Each endpoint forwards security logs to a **Central SIEM Manager (Ubuntu)** inte
 
 The complete setup guide with all commands, configuration files, and screenshots is available in the document below:
 
-📘 **[Download the Full Guide (Enhanced DOCX)](.)**
+📘 **[Download the Full Guide (Enhanced DOCX)](./project_guide_1.docx)**
 
 This guide includes:
 - Installation commands for each tool  
