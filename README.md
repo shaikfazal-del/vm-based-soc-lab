@@ -51,7 +51,7 @@ Each endpoint forwards security logs to a **Central SIEM Manager (Ubuntu)** inte
 
 The complete setup guide with all commands, configuration files, and screenshots is available in the document below:
 
-📘 **[Download the Full Guide (Enhanced DOCX)](./project_guide_1.docx)**
+📘 **[Download the Full Guide (Enhanced DOCX)](./SOC_project_guide.pdf)**
 
 This guide includes:
 - Installation commands for each tool  
@@ -102,7 +102,7 @@ Engineering in Computer Science – Specialized in Cyber Security
 SR University  
 
 📫 *Connect on LinkedIn:* [https://www.linkedin.com/in/fazal-shaikk/]  
-🌐 *Portfolio:* [fazal-portfolio-git-main-fazals-projects-01b6c4d5.vercel.app/]
+🌐 *Portfolio:* [https://fazal-portfolio-git-main-fazals-projects-01b6c4d5.vercel.app/]
 
 ---
 
