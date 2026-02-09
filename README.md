@@ -101,7 +101,7 @@ This guide includes:
 Engineering in Computer Science – Specialized in Cyber Security  
 SR University  
 
-📫 *Connect on LinkedIn:* [https://www.linkedin.com/in/fazal-shaikk/]  
+📫 *Connect on LinkedIn:* [https://fazalsec.me]  
 🌐 *Portfolio:* [https://fazal-portfolio-git-main-fazals-projects-01b6c4d5.vercel.app/]
 
 ---
